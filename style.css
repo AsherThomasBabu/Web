@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.brand {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 060px;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+.article-quarter {
+  width: 25%;
+  padding: 10px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.row h1 {
+  font-weight: lighter;
+  text-align: center;
+}
+
+.article-half {
+  width: 50%;
+  padding: 10px;
+}
+
+.article-image {
+  width: 100%;
+}
+
+.bar-element {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+
+}
+
+.bar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 75%;
+  font-size: 20px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.bar-1 {
+  background-color: brown;
+}
+
+.bar-2 {
+  background-color: burlywood;
+}
+
+.bar-3 {
+  background-color: cadetblue;
+}
+
+.bar-4 {
+  background-color: chocolate;
+}
+
+.bar-5 {
+  background-color: darkcyan;
+}
